@@ -1,0 +1,222 @@
+.box {
+  padding: 5px;
+  border-radius: 15px;
+  position: fixed;
+  width: 1117px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(71, 71, 179, 0.295);
+  justify-content: space-between;
+}
+
+.box-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.list-item__link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.list-item__link {
+  margin-right: 40px;
+}
+
+.input-sizes {
+  display: none;
+}
+
+.active-checked {
+  background-color: rgba(109, 122, 234, 0.452);
+  border: none !important;
+  color: #fff !important;
+}
+
+.wrapper {
+  margin-top: 35px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 15px;
+  padding: 35px 35px 35px 35px;
+}
+
+.pizza-section {
+  margin-top: 7rem !important;
+}
+
+.label-circle {
+  display: flex;
+  width: 60px;
+  border: 1px solid rgb(0, 0, 0);
+  height: 60px;
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-recepts {
+  display: flex;
+  align-items: center;
+}
+
+.input-checkbox {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.recepts-flex {
+  width: 520px;
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pizza-flex {
+  gap: 100px;
+  justify-content: space-between;
+}
+
+.pizza-section-left {
+  padding-right: 25px;
+  border-right: 2px solid rgb(163, 2, 2);
+}
+
+.modal-position {
+  width: 250px;
+  height: 50px;
+  top: -50px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  position: absolute;
+}
+
+.active {
+  transition: 0.6s all ease;
+  left: 50%;
+  top: 0;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+.site-footer {
+  padding: 1.25rem;
+  background-color: rgb(47, 94, 142);
+}
+
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-logo {
+  margin-bottom: 1.75rem;
+
+}
+
+.footer-inner {
+  border-bottom: 2px solid #fff;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.big-box {
+  display: flex;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+}
+
+.box-2__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 6rem;
+}
+
+.box-2__item {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem
+}
+
+.item__link {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.box-3__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.box-1__title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 1.75rem;
+  color: #fff;
+}
+
+.box-4__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.number {
+  font-size: .857rem;
+  color: #fff;
+}
+
+.number__link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.box-4__scedule {
+  color: #fff;
+
+}
+
+.confidance {
+  color: #fff;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1200px) {
+  .pizza-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pizza-section-left {
+    display: flex;
+    border: none;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
